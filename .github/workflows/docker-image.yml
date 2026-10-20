@@ -17,5 +17,5 @@ jobs:
     - name: Build the Docker image
       run: docker build -t mathesh-playwright . 
       
-    - name: Build the Docker image
+    - name: Build the Docker contaner creation
       run: docker run --rm mathesh-playwright 
